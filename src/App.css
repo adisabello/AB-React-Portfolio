@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+.header ul li{
+  display: inline-block;
+  margin: 20px 10px 0 0;
+}
+.header ul li a, .footer a{
+  color: blanchedalmond;
+  text-decoration: none;
+  cursor: pointer;
+}
+header ul li a:hover{
+  text-decoration: underline;
+}
+.footer{
+  background-color: #282c34;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer a{
+  text-decoration: underline;
+}
+body{
+  margin: 0;padding: 0;
+  background-color: burlywood;;
+}
+.section{
+  padding: 20px;
+  min-height: calc(100% - 100px);
+  padding-bottom: 100px;
+}
+.about img{
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+.resume .content{
+  text-align: left;
+}
+.portfolio .image{
+  width: 300px;
+  margin: 20px;
+}
+.portfolio img{
+  width: 100%;
+}
+.portfolio .content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact form{
+  padding: 10px;
+  box-shadow: 0 0 10px black;
+  width: 300px;
+  margin: auto;
+  background-color: #282c34;
+  color: white;
+}
+.contact form input, .contact form textarea{
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}
+.contact form button{
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.active{
+  color: red !important;
+  text-decoration: underline;
+}

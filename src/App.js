@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react'
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
@@ -10,6 +11,7 @@ import {Route, Link, BrowserRouter as Router, Routes} from 'react-router-dom';
 
 function App() {
   return (
+    <div>
     <Router>
       <div className="App">
         <Header/>
@@ -23,6 +25,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </div>
   );
 }
 
